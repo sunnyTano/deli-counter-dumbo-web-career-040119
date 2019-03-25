@@ -1,9 +1,11 @@
 katz_deli = []
+counter = 1
 def line(arr)
   current = []
   if katz_deli.size == 0 
     return "The line is currently empty."
   else 
+    current.push("The line is currently: #{name}")
   end
   
 #   describe "#line" do
