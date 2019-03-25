@@ -14,7 +14,7 @@ def line(katz_deli)
   end
 end
       
-def take_a_number
+def take_a_number(katz_deli, str)
 
 #   describe "#take_a_number" do
 #     context "there is nobody in line" do
