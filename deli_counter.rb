@@ -10,7 +10,7 @@ def line(katz_deli)
       current.push("#{counter}. #{name}")
       counter += 1 
     end
-    puts "The line is currently: #{current.join(""}"
+    puts "The line is currently: #{current.join(" ")}"
   end
 end
       
