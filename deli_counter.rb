@@ -1,17 +1,18 @@
 katz_deli = []
-counter = 1
+
 def line(katz_deli)
-  current = []
-  if katz_deli.size == 0 
-     "The line is currently empty."
-  else 
-    katz_deli.each do |name|
-      current.push("#{number}. #{name}")
-      puts "The line is currently: #{current}"
+  line_positions = [];
+  if katz_deli.empty?
+    puts "The line is currently empty."
+  else
+    number = 1
+    katz_deli.each do |customer|
+      line_positions << "#{number}. #{customer}"
+      number += 1
     end
-      counter += 1
-    end
+    puts "The line is currently: #{line_positions.join(" ")}"
   end
+end
   
 #   describe "#line" do
 #     context "there is nobody in line" do
