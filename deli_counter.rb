@@ -1,8 +1,8 @@
 katz_deli = []
 
 def line(katz_deli)
-  line_positions = [];
-  if katz_deli.empty?
+  current = [];
+  if katz_deli.length == 0
     puts "The line is currently empty."
   else
     number = 1
