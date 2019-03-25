@@ -15,18 +15,13 @@ def line(katz_deli)
 end
       
 def take_a_number(katz_deli, str)
-  counter = 1 
+  katz_deli.push(str)
+  puts "Welcome, #{str}. You are number #{katz_deli.length} in line."
+end
   
 
 #   describe "#take_a_number" do
-#     context "there is nobody in line" do
-#       it "should add a person to the line" do
-#         expect($stdout).to receive(:puts).with("Welcome, Ada. You are number 1 in line.")
-#         take_a_number(katz_deli, "Ada")
-#         expect(katz_deli).to eq(["Ada"])
-#       end
-#     end
-
+#  
 #     context "there are already people in line" do
 #       it "should add a person to the end of the line" do
 #         # This weird looking %w syntax is just another way to instantiate an
