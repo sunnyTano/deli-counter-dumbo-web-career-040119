@@ -3,14 +3,14 @@ katz_deli = []
 def line(katz_deli)
   current = []
   if katz_deli.length == 0 
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
     counter = 1 
     katz_deli.each do |name|
       current.push("#{counter}. #{name}")
       counter += 1 
     end
-    puts "The line is currently: #{current.join(" "}"
+    puts "The line is currently: #{current.join(""}"
   end
 end
       
