@@ -3,7 +3,7 @@ counter = 1
 def line(katz_deli)
   current = []
   if katz_deli.size == 0 
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else 
     katz_deli.each do |name|
       current.push("#{number}. #{name}")
