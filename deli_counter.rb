@@ -6,7 +6,10 @@ def line(arr)
     return "The line is currently empty."
   else 
     katz_deli.each do |name|
-      current.push("#{number}")
+      current.push("#{number}. #{name}")
+      puts "The line is currently:
+      counter += 1
+    end
   end
   
 #   describe "#line" do
