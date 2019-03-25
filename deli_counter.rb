@@ -8,6 +8,7 @@ def line(arr)
     katz_deli.each do |name|
       current.push("#{number}. #{name}")
       puts "The line is currently: #{current}"
+    end
       counter += 1
     end
   end
